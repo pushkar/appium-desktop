@@ -65,13 +65,6 @@ npm run lint
 Finally, you might want to run the app in a non-development mode in order to make sure that everything works as expected if you were to publish:
 
 ```bash
-npm run build  # prepare resources
-npm start  # start a production version of the app
-```
-
-If you encounter the error 'Cannot find module /path/to/sqlite3/node_sqlite3' run the script this command rebuilds the native modules to work with Electron
-
-```bash
 npm run rebuild # rebuild native modules to work with version of Node electron uses instead of system version
 ```
 
